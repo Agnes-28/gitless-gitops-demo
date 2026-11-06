@@ -1,6 +1,8 @@
 ## Run API locally
 ```bash
-uv run uvicorn api:app --reload --port 8080
+uv run uvicorn api:app --reload --port 8080  
+# OR
+uv run python -m uvicorn api:app --reload --port 8080
 ```
 
 ## Create ECR repository with Terraform
